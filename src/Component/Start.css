@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap');
+
+.startwrapper button{
+    width: 128px;
+    height: 100%;
+    border: 2px solid rgb(250, 238, 70);
+    background-color: rgb(241, 146, 3);
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 10px;
+    outline: none;
+    padding: 5px;
+}
+@media only screen 
+and (min-width: 680px)
+{
+    .startwrapper button{
+        width: 200px;
+        height: 100%;
+        border: 2px solid rgb(250, 238, 70);
+        background-color: rgb(241, 146, 3);
+        font-size: 25px;
+        font-family: 'Oswald', sans-serif;
+        border-radius: 3px;
+        text-align: center;
+        margin-left: 10px;
+        outline: none;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,271 @@
+@media screen and (orientation:portrait) {
+.draw{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 165px; 
+    /* 330 */
+    height: 52vh;
+    /* 96 */
+    border-radius: 5px;
+    display: flex;
+    text-align:center ;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.draw1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 165px;
+    /* 330 */
+    height: 47vh;
+    /* 96 */
+    display: flex;
+    text-align:center ;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.draw h4{
+    color: navajowhite;
+    font-size: 18px;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+
+.imgsec{
+    width: 75px;
+    /* 105 */
+    height: 50px;
+    padding: 3px;
+    transform: translateY(-40px);
+    /* 5 */
+}
+.imgsec img{
+    width: 100%;
+    height: 100%;
+}
+.imgsec1{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    transform: translateY(-100px);
+}
+.imgsec1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.drawflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.draw button{
+    padding: 8px;
+    background-color:  rgb(0,0,0,0.7);
+    color: rgb(250, 244, 244);
+    font-weight: 100;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transform: translateY(0px);
+}
+}
+
+@media screen and (orientation:landscape) {
+.draw{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 330px; 
+    /* 330 */
+    height: 96vh;
+    /* 96 */
+    border-radius: 5px;
+    display: flex;
+    text-align:center ;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.draw1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 330px;
+    /* 330 */
+    height: 89vh;
+    /* 96 */
+    display: flex;
+    text-align:center ;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.draw h4{
+    color: navajowhite;
+    font-size: 18px;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+
+.imgsec{
+    width: 145px;
+    /* 105 */
+    height: 120px;
+    padding: 5px;
+    /* 5 */
+}
+.imgsec img{
+    width: 100%;
+    height: 100%;
+}
+.imgsec1{
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    transform: translateY(-200px);
+}
+.imgsec1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.drawflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.draw button{
+    padding: 16px;
+    background-color:  rgb(0,0,0,0.7);
+    color: rgb(250, 244, 244);
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+}
+
+
+@media only screen 
+and (min-width: 640px)
+{
+        
+.draw{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 230px; 
+    /* 330 */
+    height: 90vh;
+    /* 96 */
+    border-radius: 5px;
+    display: flex;
+    text-align:center ;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.draw1{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    width: 230px;
+    height: 80vh;
+    /* 96 */
+    display: flex;
+    text-align:center ;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.draw h4{
+    color: navajowhite;
+    font-size: 18px;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+
+.imgsec{
+    width: 70px;
+    /* 105 */
+    height: 75px;
+    padding: 3px;
+    /* 5 */
+}
+.imgsec img{
+    width: 100%;
+    height: 100%;
+}
+.imgsec1{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    transform: translateY(-50px);
+}
+.imgsec1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.drawflex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.draw button{
+    padding: 10px;
+    /* 16 */
+    background-color:  rgb(0,0,0,0.7);
+    color: rgb(250, 244, 244);
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+ }
+
+}
+@media only screen 
+and (min-width: 650px)
+{
+    .draw1{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #0f0c29;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        width: 230px;
+        height: 84vh;
+        /* 96 */
+        display: flex;
+        text-align:center ;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}

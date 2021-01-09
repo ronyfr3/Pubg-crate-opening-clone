@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap');
+.classbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    background-color: rgba(0,0,0,0.4);
+    border: 2px solid rgb(214, 169, 21);
+    width: 125px;
+    height: 30px;
+}
+
+.classwell{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.map{
+    color: white;
+    font-size: 16px;
+}
+.classic{
+    color: white;
+    font-size: 10px;
+    font-family: Poppins ;
+    padding-left: 5px;
+    transform: translateY(4px);
+}
+.erangle{
+    font-size: 7px;
+    font-weight: 700;
+    color: rgba(177, 172, 172, 0.8);
+    font-family: Poppins ;
+    transform: translateY(-8px) translateX(4px);
+}
+.peonewtpp{
+    display: flex;
+}
+.grouppeo{
+    color: rgba(221, 217, 217, 0.8);
+    transform: translateX(27px) translateY(3px);
+    font-size: 15px;
+}
+.new{
+    font-size: 6px;
+    color: yellow;
+    transform: translateX(17px) translateY(-3px);
+
+}
+.tpp{
+    font-size: 8px;
+    font-weight: 700;
+    color: rgba(221, 217, 217, 0.8);
+    transform: translateY(8px);
+}
+
+@media only screen 
+and (min-width: 680px)
+{
+    .classbtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-radius: 3px;
+        background-color: rgba(0,0,0,0.4);
+        border: 2px solid rgb(214, 169, 21);
+        width: 200px;
+        height: 50px;
+    }
+    
+.classwell{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.map{
+    color: white;
+    font-size: 24px;
+}
+.classic{
+    color: white;
+    font-size: 16px;
+    font-family: Poppins ;
+    padding-left: 5px;
+    transform: translateY(4px);
+}
+.erangle{
+    font-size: 11px;
+    font-weight: 700;
+    color: rgba(177, 172, 172, 0.8);
+    font-family: Poppins ;
+    transform: translateY(-14px) translateX(4px);
+}
+.peonewtpp{
+    display: flex;
+}
+.grouppeo{
+    color: rgba(221, 217, 217, 0.8);
+    transform: translateX(27px) translateY(3px);
+    font-size: 20px;
+}
+.new{
+    font-size: 12px;
+    color: yellow;
+    transform: translateX(27px) translateY(-10px);
+
+}
+.tpp{
+    font-size: 11px;
+    font-weight: 700;
+    color: rgba(221, 217, 217, 0.8);
+    transform: translateY(11px) translateX(-19px);
+}
+}
